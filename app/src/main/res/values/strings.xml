@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Proyecto_hotel</string>
+    <string name="title_home">Home</string>
+    <string name="title_reservas">Reservas</string>
+    <string name="title_calificacion">Calificación</string>
+    <string name="title_user">User</string>
+</resources>
