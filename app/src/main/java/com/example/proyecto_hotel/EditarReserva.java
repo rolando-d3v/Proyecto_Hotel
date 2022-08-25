@@ -10,5 +10,6 @@ public class EditarReserva extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editar_reserva);
+        getSupportActionBar().hide();
     }
 }

@@ -4,4 +4,5 @@
     <string name="title_reservas">Reservas</string>
     <string name="title_calificacion">Calificación</string>
     <string name="title_user">User</string>
+    <string name="title_activity_ubicacion">Ubicacion</string>
 </resources>
