@@ -9,7 +9,14 @@
         android:id="@+id/navigation_home"
         android:name="com.example.proyecto_hotel.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_infoCuartoFragment"
+            app:destination="@id/navigation_infoCuartoFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_agregarServicioFragment"
+            app:destination="@id/navigation_agregarServicioFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_reservas"
@@ -44,7 +51,11 @@
         android:id="@+id/navigation_agregarServicioFragment"
         android:name="com.example.proyecto_hotel.ui.infocuarto.AgregarServicioFragment"
         android:label="Servicio por celebración"
-        tools:layout="@layout/fragment_agregar_servicio" />
+        tools:layout="@layout/fragment_agregar_servicio" >
+        <action
+            android:id="@+id/action_navigation_agregarServicioFragment_to_navigation_registrarReservaFragment"
+            app:destination="@id/navigation_registrarReservaFragment" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_registrarReservaFragment"
         android:name="com.example.proyecto_hotel.ui.infocuarto.RegistrarReservaFragment"

@@ -22,12 +22,6 @@ public class AgregarServicioFragment extends Fragment {
 
     private FragmentAgregarServicioBinding binding;
 
-    /*@Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-    }*/
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -50,6 +44,7 @@ public class AgregarServicioFragment extends Fragment {
 
         binding.buttonCumpleanos.setOnClickListener(view1 -> {
             txtPrecio.setText("Precio: S/200.00");
+
         });
 
         binding.buttonGraduacion.setOnClickListener(view1 -> {

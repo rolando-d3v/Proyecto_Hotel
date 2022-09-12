@@ -62,15 +62,32 @@
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="318dp"
-            android:layout_height="171dp"
+            android:layout_width="83dp"
+            android:layout_height="87dp"
             android:layout_marginTop="72dp"
             android:layout_marginBottom="8dp"
-            android:src="@drawable/logo"
             android:background="@android:color/transparent"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            android:src="@drawable/isologo"
+            app:layout_constraintBottom_toTopOf="@+id/editTextPersonName"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.137"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.526" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="232dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="160dp"
+            android:text="Hotel Decameron"
+            android:textColor="#000000"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

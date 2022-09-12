@@ -9,6 +9,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
 import android.text.Editable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +43,8 @@ public class LoginFragment extends Fragment {
 
         binding.buttonLogin.setOnClickListener(view1 -> {
             if(txtUsuario.getText().toString().equals("") || txtPassword.getText().toString().equals("")){
-                Toast.makeText(requireContext(),"Ingresar sus credenciales correctos", Toast.LENGTH_LONG).show();
+                Log.i("=====>","No hay datos");
+                Toast.makeText(getContext(),"Ingresar sus credenciales correctos", Toast.LENGTH_LONG).show();
             } else {
                 navController.navigate(R.id.navigation_home);
                 Toast.makeText(requireContext(),"Bienvenido Jorge", Toast.LENGTH_LONG).show();

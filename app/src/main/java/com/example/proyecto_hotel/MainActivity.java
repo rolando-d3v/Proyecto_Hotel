@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 navView.setVisibility(View.VISIBLE);
                 getSupportActionBar().show();
                 //getSupportActionBar().setTitle("Hello world App");
-
             }
         });
     }
