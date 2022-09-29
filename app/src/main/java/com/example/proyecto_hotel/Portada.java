@@ -29,7 +29,7 @@ public class Portada extends AppCompatActivity implements View.OnClickListener {
                 break;
 
             case  R.id.btn_registrarse:
-                intencion = new Intent(Portada.this,MainActivity.class);
+                intencion = new Intent(Portada.this,ReservaCategoria.class);
                 break;
         }
         startActivity(intencion);

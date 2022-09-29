@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.android.volley.RequestQueue;
 import com.example.proyecto_hotel.InfoReserva;
 import com.example.proyecto_hotel.R;
 
@@ -24,10 +25,9 @@ public class ReservasFragment extends Fragment  {
 
 
     Activity context;
-
-
-
     private ReservasViewModel mViewModel;
+    private RequestQueue cola;
+
 
     public static ReservasFragment newInstance() {
         return new ReservasFragment();
@@ -38,8 +38,8 @@ public class ReservasFragment extends Fragment  {
 
                              @Nullable Bundle savedInstanceState) {
 
-
         context = getActivity();
+
 
         return inflater.inflate(R.layout.fragment_reservas, container, false);
     }

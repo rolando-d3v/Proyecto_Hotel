@@ -4,17 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2085" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/drawable/spinner_selector.xml" value="0.217" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_editar_reserva.xml" value="0.3453125" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_get_id_categoria.xml" value="0.5" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_id_categoria.xml" value="0.54296875" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_info_reserva.xml" value="0.25" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_lista_categorias.xml" value="0.5" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_main.xml" value="0.1661600810536981" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_portada.xml" value="0.22" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_reserva_categoria.xml" value="0.51796875" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/activity_ubicacion.xml" value="0.31484375" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/categorias.xml" value="0.496875" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fila_categorias.xml" value="0.51640625" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fragment_calificacion.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fragment_notifications.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fragment_reservas.xml" value="0.1" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/fragment_user.xml" value="0.3453125" />
+        <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/layout/spinner_item.xml" value="0.31484375" />
         <entry key="..\:/Users/landon/AndroidStudioProjects/Proyecto_hotel/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
       </map>
     </option>

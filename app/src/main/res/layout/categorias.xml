@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#42424242"
+        android:layout_margin="11sp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="157dp"
+            android:layout_height="126dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_toRightOf="@id/imageView"
+            android:text="Suite (Premiun)"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewShortDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="cuarto con mejor vista al mar"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewShortDesc"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:background="@color/teal_200"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="4.7"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="$490"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

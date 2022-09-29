@@ -48,4 +48,6 @@ public class Ubicacion extends FragmentActivity implements OnMapReadyCallback {
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+
+
 }
